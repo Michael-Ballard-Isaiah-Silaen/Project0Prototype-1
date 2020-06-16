@@ -5,6 +5,28 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+    @media (min-width: 500px) {
+  body {
+    background-image: radial-gradient(#212121 20%, transparent 20%),
+ radial-gradient(#fafafa 20%, transparent 20%);
+background-color: rgb(255, 255, 0);
+background-position: 0 0, 50px 50px;
+background-size: 100px 100px;
+height: 200px;
+width: 100%;
+  }
+  }
+  @media (max-width: 499px) {
+  body {
+    background-image: radial-gradient(#212121 20%, transparent 20%),
+ radial-gradient(#fafafa 20%, transparent 20%);
+background-color: red;
+background-position: 0 0, 50px 50px;
+background-size: 100px 100px;
+height: 200px;
+width: 100%;
+  }
+  }
       .container {
         display: flex;
         flex-wrap: wrap;
@@ -22,15 +44,6 @@
         color: white;
         height:50px;
         postion:fixed;
-      }
-      body {
-        background-image: radial-gradient(#212121 20%, transparent 20%),
-     radial-gradient(#fafafa 20%, transparent 20%);
-  background-color: rgb(255, 255, 0);
-  background-position: 0 0, 50px 50px;
-  background-size: 100px 100px;
-  height: 200px;
-  width: 100%;
       }
       #div2 {
         background-color: black;
