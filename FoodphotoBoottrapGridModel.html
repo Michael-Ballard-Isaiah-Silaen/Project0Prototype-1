@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flexboxtest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .container > div {
+        background-color: springgreen;
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        width: 200px;
+      }
+      #updiv{
+        background-color: black;
+        color: white;
+        height:50px;
+        postion:fixed;
+      }
+      body {
+        background-image: radial-gradient(#212121 20%, transparent 20%),
+     radial-gradient(#fafafa 20%, transparent 20%);
+  background-color: rgb(255, 255, 0);
+  background-position: 0 0, 50px 50px;
+  background-size: 100px 100px;
+  height: 200px;
+  width: 100%;
+      }
+      #div2 {
+        background-color: black;
+        position:absolute;
+        height: 175px;
+        width: 100%;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+  <div id="updiv"> <h2 style="text-align:center">Delicious homemade food by my mother :)</h2></div>
+     <div class="container">
+         <div><h5>A. Beef yakiniku</h5> <img src="ZBeef yakiniku.jpg" height="100px" style="margin-left:40px"><p style="font-size:15px">Classic roasted beef slices with onions.</p></div>
+         <div><h5>B. Bread pudding</h5> <img src="ZBread Pudding.jpeg" height="100px" style="margin-left:40px"><p style="font-size:15px">Crunchy top, but soft bottom, with an extraordinary taste.</p></div>
+         <div><h5>C. Caramel toast</h5> <img src="ZCaramel toast.jpg" height="100px" style="margin-left:40px"><p style="font-size:15px">Crunchy and sweet, what else could be more?</p></div>
+         <div><h5>D. Coconut pudding</h5> <img src="ZCendol Pudding.jpg" height="100px" style="margin-left:40px"><p style="font-size:15px">An excellent pudding.</p></div>
+         <div><h5>E. Chocolate cinnamon rolls</h5> <img src="ZChocolate cinnamon rolls.jpg" height="100px" style="margin-left:50px;margin-right:20px;"><p style="font-size:15px">A true delight, sweet and warm. Perfect for your tea.</div>
+         <div><h5>F. Coffee cinnamon rolls</h5><img src="ZCoffee Cinamon Roll.jpeg" height="100px" style="margin-left:50px"><p style="font-size:15px">A delicious chocolate and raisin filled cinnamon roll.</p></div>
+         <div><h5>G. Garlic cheese bread</h5><img src="Zgarlic cheese bread.jpg" height="100px" style="margin-left:40px"><p style="font-size:15px">An unique cheese-filled garlic bread.</p></div>
+         <div><h5>H. Mac and cheese</h5><img src="ZMac and cheese.jpg" height="100px" style="margin-left:20px"><p style="font-size:15px">A classic dish, a mixture of delicious cream cheese,beef, and macaronis.</p></div>
+     </div>
+     <div id="div2"> <p>>Creator: Michael Ballard Isaiah Silaen >Telephone:+62-813-1841-2250 >E-mail: silaenmichael@gmail.com </p>
+       <p> Checkout the link to my other pages!
+         <ul>
+         <li> <a href="homepage.html">>My Homepage!<</a></li>
+         <li> <a href="AchievementTable.html">>My Achievements!<</a></li>
+         <li> <a href="PersonalInterestsLists.html">>My Interests<</a></li>
+        </ul>
+     </div>
+  </body>
+</html>
