@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
     @media (min-width: 500px) {
+  #title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em
+  }
   body {
     background-image: radial-gradient(#212121 20%, transparent 20%),
  radial-gradient(#fafafa 20%, transparent 20%);
@@ -17,6 +22,11 @@ width: 100%;
   }
   }
   @media (max-width: 499px) {
+    #title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 1em
+    }
   #updiv {
       background-color: black;
       color: white;
@@ -63,7 +73,7 @@ width: 100%;
     </style>
   </head>
   <body>
-  <div id="updiv"> <h2 style="text-align:center">Delicious homemade food by my mother :)</h2></div>
+  <div id="updiv"> <p id="title">Delicious homemade food by my mother :)</p></div>
      <div class="container">
          <div><h5>A. Beef yakiniku</h5> <img src="ZBeef yakiniku.jpg" height="100px" style="margin-left:40px"><p style="font-size:15px">Classic roasted beef slices with onions.</p></div>
          <div><h5>B. Bread pudding</h5> <img src="ZBread Pudding.jpeg" height="100px" style="margin-left:40px"><p style="font-size:15px">Crunchy top, but soft bottom, with an extraordinary taste.</p></div>
