@@ -2,12 +2,14 @@ $color: black;
 
 #tablediv {
   table {
+  margin-left: auto;
+  margin-right: auto;
   border:2px solid $color;
   border-collapse: collapse;
+  background-color: white;
 }
 th,td {
 border:1px solid $color;
-background-color: white;
 }
 }
 body {
@@ -18,4 +20,11 @@ background-position: 0 0, 50px 50px;
 background-size: 100px 100px;
 height: 200px;
 width: 100%;
+}
+%message {
+  font-family: sans-serif;
+}
+#Success {
+  @extend %message;
+  background-color: lawngreen;
 }

@@ -1,11 +1,13 @@
 #tablediv table {
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid black;
   border-collapse: collapse;
+  background-color: white;
 }
 
 #tablediv th, #tablediv td {
   border: 1px solid black;
-  background-color: white;
 }
 
 body {
@@ -15,5 +17,13 @@ body {
   background-size: 100px 100px;
   height: 200px;
   width: 100%;
+}
+
+#Success {
+  font-family: sans-serif;
+}
+
+#Success {
+  background-color: lawngreen;
 }
 /*# sourceMappingURL=AT.css.map */
